@@ -1,0 +1,23 @@
+//Q3,=> write a program to find the sum of a fitst and the last digit number
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int n,m,a,b;
+clrscr();
+
+printf("=======================\n");
+printf("enter any value\n");
+scanf("%d",&n);
+printf("=======================\n");
+a=n%10;
+
+while(n>10){
+m=n/10;
+n=m;
+}
+
+
+b=m+a;
+printf("%d",b);
+
+getch();}
